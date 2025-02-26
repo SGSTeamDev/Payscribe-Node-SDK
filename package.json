@@ -23,6 +23,13 @@
     "url": "https://github.com/SGSTeamDev/Payscribe-Node-SDK/issues"
   },
   "homepage": "https://github.com/SGSTeamDev/Payscribe-Node-SDK#readme",
+  "keywords": [
+    "payments",
+    "bills",
+    "cards",
+    "payout",
+    "specialman"
+  ],
   "dependencies": {
     "axios": "^1.7.9",
     "dotenv": "^8.6.0"

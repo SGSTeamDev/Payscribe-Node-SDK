@@ -1,10 +1,18 @@
 const helpers = {
-  sendResponse(status_code, message, data) {
-    return {
+  sendResponse(status, status_code, error, description, message) {
+    const response = {
+      status,
       status_code,
+      error,
+      description,
       message,
-      data: data ? data : undefined,
     };
+
+    // Remove undefined values dynamically
+    return Object.fromEntries(
+      // eslint-disable-next-line no-unused-vars
+      Object.entries(response).filter(([_, v]) => v !== undefined)
+    );
   },
 };
 
