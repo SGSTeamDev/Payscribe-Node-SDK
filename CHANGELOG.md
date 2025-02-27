@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - Release Date
 
+[1.0.0] - 2025-02-27
+
 <!-- ## [version] - Date -->
 <!-- At release time, move the Unreleased section changes into a new release version section. -->
 
@@ -16,27 +18,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- New features go here in a bullet list
-
-### Changed
-
-- Changes to existing functionality go here in a bullet list
-
-### Deprecated
-
-- Mark features soon-to-be removed in a bullet list
-
-### Removed
-
-- Features that have been removed in a bullet list
-
-### Fixed
-
-- Bug fixes in a bullet list
-
-### Security
-
-- Changes/fixes related to security vulnerabilities in a bullet list
+- Account
+- Customers
+- Betting
+- Airtime
+- Misc
 
 <!-- Example -->
 

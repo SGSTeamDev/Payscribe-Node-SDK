@@ -2,28 +2,51 @@
 
 <!--- FIXME: chnage below to name of your project! --->
 
-# `opensource-starter`
+# `Payscribe NodeJS SDK`
 
 <!--- FIXME: Write short catchy description/tagline of project --->
 
-**Template for creating new open source repositories that follow Special Man Global Solution LTD open source guidelines**
+## Introduction
+
+This guide provides an overview of the Payscribe SDK, including methods for managing accounts, retrieving services, handling customers, processing transactions, and more. The SDK simplifies interactions with the Payscribe API, allowing developers to integrate its functionalities easily.
 
 </div>
 
-## TEMPLATE INSTRUCTIONS
+## Table of Content
 
-1. Create a new repository using this template.
-2. **Title:** Change the first line of this README to the name of your project.
-3. **Issue & PR Templates**: Review the files in [ISSUE_TEMPLATE](.github/ISSUE_TEMPLATE/) and [PULL_REQUEST_TEMPLATE](.github/PULL_REQUEST_TEMPLATE.md). Adapt them
-   to suit your needs, removing or re-wording any sections that don't make sense for your use case.
-4. **CHANGELOG.md:**
+1. [Requirements](#requirements)
+2. [Installation](#installation)
+3. [Setup](#setup)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-   - Keep Unreleased section at the top to track upcoming changes.
-   - At release time, move the Unreleased section changes into a new release version section.
-   - Keep to the format and use semantic version for logs.
-   - New change logs should come first after the Unrealeased section (see example).
+## Requirements
 
-5. **Cleanup:** Remove this section of the README and any unused files from the repo.
+- Payscribe Public Key.
+- Node JS v18 or higher.
+
+## Installation
+
+```sh
+npm install @specialman/payscribe
+```
+
+## Setup
+
+```javascript
+let payscribe = require("@specialman/payscribe");
+payscribe = payscribe("your_public_key");
+```
+
+# Usage
+
+[Responses](documentation/response.md)
+[Account](documentation/account.md)
+[Customers](documentation/customer.md)
+[Betting](documentation/betting.md)
+[Airtime](documentation/airtime.md)
+[Misc](documentation/misc.md)
 
 ## Contributing
 
