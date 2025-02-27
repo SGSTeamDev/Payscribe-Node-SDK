@@ -31,6 +31,7 @@
     "specialman"
   ],
   "dependencies": {
+    "@faker-js/faker": "^9.5.0",
     "axios": "^1.7.9",
     "dotenv": "^8.6.0"
   },
