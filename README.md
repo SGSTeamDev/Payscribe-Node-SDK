@@ -41,12 +41,12 @@ payscribe = payscribe("your_public_key");
 
 # Usage
 
-[Responses](documentation/response.md)
-[Account](documentation/account.md)
-[Customers](documentation/customer.md)
-[Betting](documentation/betting.md)
-[Airtime](documentation/airtime.md)
-[Misc](documentation/misc.md)
+1. [Responses](documentation/response.md)
+2. [Account](documentation/account.md)
+3. [Customers](documentation/customer.md)
+4. [Betting](documentation/betting.md)
+5. [Airtime](documentation/airtime.md)
+6. [Misc](documentation/misc.md)
 
 ## Contributing
 
