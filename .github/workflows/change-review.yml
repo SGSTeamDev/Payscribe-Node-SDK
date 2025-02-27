@@ -32,5 +32,5 @@ jobs:
 
       - name: run unit tests
         env:
-          KEY: ${{ secrets.PUBLIC_KEY }}
+          PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}
         run: npm run test-workflow
